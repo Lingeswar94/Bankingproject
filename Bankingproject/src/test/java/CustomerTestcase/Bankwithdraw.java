@@ -1,4 +1,4 @@
-package Testcase;
+package CustomerTestcase;
 
 import java.util.Properties;
 
@@ -7,8 +7,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import Bankweb.ChooseBrowser;
-import TestScenario.Bankwithdrawtestcase;
-import TestScenario.XYZBanktestcase;
+import CustomerTestScenario.Bankwithdrawtestcase;
+import CustomerTestScenario.XYZBanktestcase;
 
 public class Bankwithdraw extends ChooseBrowser {
 

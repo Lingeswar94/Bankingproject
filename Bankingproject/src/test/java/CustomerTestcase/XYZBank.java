@@ -1,4 +1,4 @@
-package Testcase;
+package CustomerTestcase;
 
 import java.io.IOException;
 import java.util.List;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import Bankweb.ChooseBrowser;
-import TestScenario.XYZBanktestcase;
+import CustomerTestScenario.XYZBanktestcase;
 
 public class XYZBank extends ChooseBrowser {
 

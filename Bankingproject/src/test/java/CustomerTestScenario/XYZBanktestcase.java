@@ -1,4 +1,4 @@
-package TestScenario;
+package CustomerTestScenario;
 
 import java.util.Properties;
 

@@ -1,4 +1,4 @@
-package Testcase;
+package CustomerTestcase;
 
 import java.util.Properties;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import Bankweb.ChooseBrowser;
-import TestScenario.BankDepositeTestcase;
+import CustomerTestScenario.BankDepositeTestcase;
 
 public class Bankdeposite extends ChooseBrowser {
 	
