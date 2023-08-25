@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-28T12:59:11 IST" name="Banking Project" finished-at="2023-06-28T12:59:17 IST" duration-ms="5867">
+  <suite started-at="2023-08-25T19:26:27 IST" name="Default suite" finished-at="2023-08-25T19:26:30 IST" duration-ms="3140">
     <groups>
     </groups>
-    <test started-at="2023-06-28T12:59:11 IST" name="Bank Login " finished-at="2023-06-28T12:59:13 IST" duration-ms="2183">
-      <class name="Testcase.XYZBank">
-        <test-method signature="CustomerLogin()[pri:0, instance:Testcase.XYZBank@58cbafc2]" started-at="2023-06-28T12:59:11 IST" name="CustomerLogin" finished-at="2023-06-28T12:59:13 IST" duration-ms="2043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CustomerLogin -->
-      </class> <!-- Testcase.XYZBank -->
-    </test> <!-- Bank Login  -->
-    <test started-at="2023-06-28T12:59:13 IST" name="Bank Deposite " finished-at="2023-06-28T12:59:15 IST" duration-ms="1627">
-      <class name="Testcase.Bankdeposite">
-        <test-method signature="BankDeposite()[pri:0, instance:Testcase.Bankdeposite@5386659f]" started-at="2023-06-28T12:59:13 IST" name="BankDeposite" finished-at="2023-06-28T12:59:15 IST" duration-ms="1605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BankDeposite -->
-      </class> <!-- Testcase.Bankdeposite -->
-    </test> <!-- Bank Deposite  -->
-    <test started-at="2023-06-28T12:59:15 IST" name="Bank Withdraw " finished-at="2023-06-28T12:59:17 IST" duration-ms="1961">
-      <class name="Testcase.Bankwithdraw">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Testcase.Bankwithdraw@7ce69770]" started-at="2023-06-28T12:58:17 IST" name="OpenBrowser" finished-at="2023-06-28T12:59:11 IST" duration-ms="53722" status="PASS">
+    <test started-at="2023-08-25T19:26:27 IST" name="Default test" finished-at="2023-08-25T19:26:30 IST" duration-ms="3140">
+      <class name="ManagerLoginScenario.Managerlogin">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:ManagerLoginScenario.Managerlogin@58cbafc2]" started-at="2023-08-25T19:26:14 IST" name="OpenBrowser" finished-at="2023-08-25T19:26:27 IST" duration-ms="13575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="Withdrawamount()[pri:0, instance:Testcase.Bankwithdraw@7ce69770]" started-at="2023-06-28T12:59:15 IST" name="Withdrawamount" finished-at="2023-06-28T12:59:17 IST" duration-ms="1946" status="PASS">
+        <test-method signature="ManagerBanklogincase()[pri:0, instance:ManagerLoginScenario.Managerlogin@58cbafc2]" started-at="2023-08-25T19:26:28 IST" name="ManagerBanklogincase" finished-at="2023-08-25T19:26:30 IST" duration-ms="2921" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Withdrawamount -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.Bankwithdraw@7ce69770]" started-at="2023-06-28T12:59:17 IST" name="teardown" finished-at="2023-06-28T12:59:17 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- ManagerBanklogincase -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ManagerLoginScenario.Managerlogin@58cbafc2]" started-at="2023-08-25T19:26:31 IST" name="teardown" finished-at="2023-08-25T19:26:31 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Testcase.Bankwithdraw -->
-    </test> <!-- Bank Withdraw  -->
-  </suite> <!-- Banking Project -->
+      </class> <!-- ManagerLoginScenario.Managerlogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
