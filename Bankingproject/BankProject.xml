@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking Project">
+
+	<test name="Bank Login ">
+		<classes>
+			<class name="Testcase.XYZBank">
+			</class>
+		</classes>
+	</test>
+	<test name="Bank Deposite ">
+		<classes>
+			<class name="Testcase.Bankdeposite">
+			</class>
+		</classes>
+	</test>
+<test name="Bank Withdraw ">
+		<classes>
+			<class name="Testcase.Bankwithdraw">
+			</class>
+		</classes>
+	</test>
+
+</suite>
